@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "bun run --hot --port 3001 src/index.ts",
+    "lint": "eslint \"**/*.{ts,tsx}\""
+  },
+  "dependencies": {
+    "hono": "^4.2.8"
+  },
+  "devDependencies": {
+    "@eoghanmccarthy/eslint-config": "github:eoghanmccarthy/eslint-config",
+    "@types/bun": "latest",
+    "eslint": "^8.55.0"
+  }
+}
